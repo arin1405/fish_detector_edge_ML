@@ -7,6 +7,6 @@ In this work, we have developed a machine learning solution that can detect and 
 
 The script can detect fishes and count from video. The script can be executed as: 
 
-> python fish_detector.py <folder location>
+> python fish_detector.py "folder location"
 
-Where <folder location> is the location of folder containing the sample video (“fish_undetected.mp4”) and the pb file of frozen inference graph. Frames will be extracted from the video in the same folder and output video (“test.avi”) with detection and count will be created in the same folder.
+Where "folder location" is the location of folder containing the sample video (“fish_undetected.mp4”) and the pb file of frozen inference graph. Frames will be extracted from the video in the same folder and output video (“test.avi”) with detection and count will be created in the same folder.
